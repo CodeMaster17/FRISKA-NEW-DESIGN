@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /*  sizes */
+    --headingFontSize: calc(1rem + 1vw);
+    --paraFontSize: calc(0.7rem + 1vw);
+    --cardsFontSize: calc(0.3rem + 1vw);
+    --paraFontSmall: calc(0.1rem + 1vw);
+    --iconSize: calc(0.3rem + 1vw);
+    --btnFont: calc(0.1rem + 0.7vw);
+    /* colors */
+    --darkBlueBgColor: #00C4DE;
+    --lightBlueBgColor: #E5F9FC;
+    --fontColor: rgba(0, 0, 0, 0.65);
+    --darkBlueBgCss: rgba(0, 196, 222, 1);
+    --locationBtnBg: #E5F9FC;
+}
+
+.outerContainerAboutUs {
+    margin-top: 10%;
+    width: 100vw;
+    height: 50vh;
+    /* background-color: #00C4DE; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #F4F3F8; */
+}
+
+.aboutHead {
+    /* width: max-content; */
+}
+
+.smallAboutHead {
+    color: black;
+}
+
+.innerContainerAbout {
+    width: 70%;
+    margin-left: 15%;
+    height: 100%;
+    text-align: center;
+    margin-top: 4%;
+    border-bottom: 1px solid grey;
+}
+
+.paraAbout {
+    font-size: var(--paraFontSize);
+}

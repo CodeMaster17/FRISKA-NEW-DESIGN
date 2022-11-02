@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /*  sizes */
+    --headingFontSize: calc(1rem + 1vw);
+    --paraFontSize: calc(0.7rem + 1vw);
+    --cardsFontSize: calc(0.3rem + 1vw);
+    --paraFontSmall: calc(0.1rem + 1vw);
+    --iconSize: calc(0.3rem + 1vw);
+    --btnFont: calc(0.1rem + 0.7vw);
+    --heroAreaHeading: calc(1rem + 1vw);
+    --heroAreaSpanHeading: calc(1rem + 3vw);
+    /* colors */
+    --darkBlueBgColor: #00C4DE;
+    --lightBlueBgColor: #E5F9FC;
+    --fontColor: rgba(0, 0, 0, 0.65);
+    --darkBlueBgCss: rgba(0, 196, 222, 1);
+    --locationBtnBg: #E5F9FC;
+}
+
+.outerContainerHero {
+    width: 100vw;
+    height: 80vh;
+    background: url(../img/LandingPage/heroImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.innerContainerHero {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: #E5F9FC; */
+}
+
+.heroHeading {
+    font-size: var(--heroAreaHeading);
+    text-align: center;
+}
+
+.spanheroHeading {
+
+    font-size: calc(2rem + 4vw);
+    font-weight: 1000;
+}
+
+.heroPara {
+    width: 90%;
+    font-size: var(--paraFontSize);
+    font-weight: 100;
+    text-align: center;
+}
+
+.btnsHeroArea {
+    /* background-color: antiquewhite; */
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.LoginHeroButton {
+    /* margin-left: 10%; */
+    width: 40%;
+    height: 3vw;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #00C4DE;
+}
+
+.LoginHeroButton a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--paraFontSmall);
+}
+
+.LoginHeroButton:hover {
+    cursor: pointer;
+    border: 2px solid #00C4DE;
+    cursor: pointer;
+    background-color: white;
+}
+
+.LoginHeroButton:hover a {
+    color: black;
+}

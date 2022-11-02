@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /*  sizes */
+    --headingFontSize: calc(1rem + 1vw);
+    --paraFontSize: calc(0.7rem + 1vw);
+    --cardsFontSize: calc(0.3rem + 1vw);
+    --paraFontSmall: calc(0.1rem + 1vw);
+    --iconSize: calc(0.3rem + 1vw);
+    --btnFont: calc(0.1rem + 0.7vw);
+    /* colors */
+    --darkBlueBgColor: #00C4DE;
+    --lightBlueBgColor: #E5F9FC;
+    --fontColor: rgba(0, 0, 0, 0.65);
+    --darkBlueBgCss: rgba(0, 196, 222, 1);
+    --locationBtnBg: #E5F9FC;
+}
+
+.ContactUsPageContainer {
+    overflow-x: hidden !important;
+    width: 100vw;
+    height: 70vh;
+    background-color: #00C4DE;
+}
+
+.upperContainerContact {
+    overflow-x: hidden !important;
+    width: 100vw;
+    height: 50%;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+
+.upperContainerContact h1 {
+    font-size: var(--headingFontSize);
+}
+
+.upperContainerContact p {
+    color: white;
+    font-size: var(--paraFontSize);
+}
+
+.heroContactImg {
+    width: 100%;
+    height: 100%;
+    /* margin-left: 5%; */
+}
+
+.headingCustomer {
+    /* From https://css.glass */
+
+}
+
+.headingCustomer {
+    font-size: var(--headingFontSize);
+    color: white;
+    height: 20%;
+    font-size: var(--headingFontSize);
+    padding: 20px;
+}
+
+.lowerContainer {
+    width: 70%;
+    /* background-color: red; */
+    height: 32%;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    justify-content: space-evenly;
+}
+
+.contactCard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.contactCard1 p {
+    color: black;
+
+}
+
+.contactCard2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    color: black;
+    text-align: center;
+}
+
+.contactCard2 p {
+
+    color: black;
+}
+
+.contactCard1 ion-icon {
+    width: 3vw;
+    height: 3vw;
+}
+
+.contactCard2 ion-icon {
+    width: 3vw;
+    height: 3vw;
+}
+
+
+.callContent span {
+    color: rgba(0, 196, 222, 1);
+    font-weight: 1000;
+}
+
+.emailContent span {
+    color: rgba(0, 196, 222, 1);
+    font-weight: 1000;
+}
